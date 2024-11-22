@@ -1,0 +1,23 @@
+[
+  {
+    "description": "Google Cloud Platform resources are managed hierarchically using organization, folders, and projects. When Cloud Identity and Access Management (IAM) policies exist at these different levels, what is the effective policy at a particular node of the hierarchy?",
+    "answers": [
+      {
+        "value": "The effective policy is determined only by the policy set at the node",
+        "correct": false
+      },
+      {
+        "value": "The effective policy is the policy set at the node and restricted by the policies of its ancestors",
+        "correct": false
+      },
+      {
+        "value": "The effective policy is the union of the policy set at the node and policies inherited from its ancestors",
+        "correct": true
+      },
+      {
+        "value": "The effective policy is the intersection of the policy set at the node and policies inherited from its ancestors",
+        "correct": false
+      }
+    ]
+  }
+]
